@@ -497,9 +497,9 @@
   //#define DEFAULT_Kd 43.78
 
     // Sidewinder X1 (BANG_MAX 128)
-  #define DEFAULT_Kp 13.95
-  #define DEFAULT_Ki 1.00
-  #define DEFAULT_Kd 48.56
+  #define DEFAULT_Kp 18.44
+  #define DEFAULT_Ki 1.89
+  #define DEFAULT_Kd 44.94
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
