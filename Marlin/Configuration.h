@@ -71,7 +71,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(TheLion, Sidewinder X1-Marlin2.0.6.1-SKR v1.3-TMC2209-TFT35-HERMERA-FULAMENTMOUNT-NIGHTHAWK)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(TheLion, Sidewinder X1-Marlin2.0.6.1-SKR v1.3-TMC2209-TFT35-HERMERA-FULAMENTMOUNT-NIGHTHAWK-BTT FILAMENT SENSOR)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -1189,13 +1189,13 @@
   // After a runout is detected, continue printing this length of filament
   // before executing the runout script. Useful for a sensor at the end of
   // a feed tube. Requires 4 bytes SRAM per sensor, plus 4 bytes overhead.
-  //#define FILAMENT_RUNOUT_DISTANCE_MM 25
+  #define FILAMENT_RUNOUT_DISTANCE_MM 7
 
   #ifdef FILAMENT_RUNOUT_DISTANCE_MM
     // Enable this option to use an encoder disc that toggles the runout pin
     // as the filament moves. (Be sure to set FILAMENT_RUNOUT_DISTANCE_MM
     // large enough to avoid false positives.)
-    //#define FILAMENT_MOTION_SENSOR
+    #define FILAMENT_MOTION_SENSOR
   #endif
 #endif
 
