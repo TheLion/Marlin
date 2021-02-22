@@ -74,7 +74,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(TheLion, Sidewinder X1-Marlin2.0.x-SKR1.3-TMC2209-TFT35-HERMERA)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(TheLion, Sidewinder X1-Marlin2.0.x-SKR1.4T-TMC2209-TFT35-HERMERA)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -132,7 +132,7 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_BTT_SKR_V1_3
+  #define MOTHERBOARD BOARD_BTT_SKR_V1_4_TURBO
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
