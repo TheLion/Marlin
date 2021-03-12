@@ -514,9 +514,9 @@
   //#define DEFAULT_Kd 43.78
 
     // Sidewinder X1 (BANG_MAX 128)
-  #define DEFAULT_Kp 18.44
-  #define DEFAULT_Ki 1.89
-  #define DEFAULT_Kd 44.94
+  #define DEFAULT_Kp 15.21
+  #define DEFAULT_Ki 1.34
+  #define DEFAULT_Kd 43.32
   #endif
 #endif // PIDTEMP
 
